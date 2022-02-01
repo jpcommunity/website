@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  text-align: center;
 }
 
 .main {
@@ -106,6 +107,46 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.comamoca {
+	margin-left: 10px;
+	transition: 0.7s ;
+}
+.comamoca:hover{
+	color: #43BFEF;
+}
+
+.grouplist {
+	list-style-type: none;
+	margin-bottom: 10%;
+	margin-top: 10%;
+}
+
+.groupname {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.memberslist {
+	position: relative;
+	right: 15px;
+	list-style-type: none;
+	text-align: center;
+}
+
+.member {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.mylink {
+	transition: 0.7s ;
+	color: #a9a9a9;
+}
+
+.mylink:hover{
+	color: #fdf5e6;
 }
 
 @media (max-width: 600px) {
